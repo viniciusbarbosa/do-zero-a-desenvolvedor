@@ -1,0 +1,218 @@
+.all {
+  background: #fff;
+  display: block;
+  height: 450px;
+  margin: 50px auto;
+  position: relative;
+  width: 450px;
+}
+
+.circle-1 {
+  background: #fff;
+  border: solid 8px #ffb500;
+  border-radius: 50%;
+  height: 434px;
+  width: 434px;
+  z-index: 1;
+}
+
+.circle-2 {
+  background: #fff;
+  border: solid 65px #ff131f;
+  border-radius: 50%;
+  display: block;
+  height: 292px;
+  left: 14px;
+  position: absolute;
+  top: 14px;
+  width: 292px;
+  z-index: 2;
+}
+
+.circle-3 {
+  border: solid 65px #ff131f;
+  border-radius: 50%;
+  display: block;
+  height: 292px;
+  left: 14px;
+  position: absolute;
+  top: 14px;
+  width: 292px;
+  z-index: 2;
+}
+
+.txt-1 svg {
+  fill: currentColor;
+  height: auto;
+  position: absolute;
+  transform-origin: center;
+  top: 4px;
+  width: 100%;
+  z-index: 3;
+}
+
+svg text {
+  color: #fff;
+  font-weight: 600;
+  font-family: system-ui;
+  font-size: 9px;
+  text-transform: uppercase;
+  fill: #fff;
+}
+
+.txt-2 {
+  position: absolute;
+  top: 4px;
+  width: 100%;
+  z-index: 4;
+}
+
+.txt-2 svg text {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.txt-3 {
+  bottom: 120px;
+  color: #ff131f;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  left: 155px;
+  position: absolute;
+  width: 100%;
+  z-index: 6;
+}
+
+
+.geometric {
+  border: 70px solid transparent;
+  border-bottom-color: #ff131f;
+  border-left-width: 140px;
+  border-right-width: 140px;
+  height: 0;
+  left: 50%;
+  margin-left: -140px;
+  position: absolute;
+  top: 70px;
+  width: 0;
+  z-index: 7;
+}
+
+.geometric:after {
+  border: 70px solid transparent;
+  border-top-color: #ff131f;
+  border-left-width: 140px;
+  border-right-width: 140px;
+  content: "";
+  height: 0;
+  left: -140px;
+  position: absolute;
+  top: 70px;
+  width: 0;
+}
+
+.geometric-2 {
+  border: 60px solid transparent;
+  border-bottom-color: #fff;
+  border-left-width: 120px;
+  border-right-width: 120px;
+  height: 0;
+  left: 50%;
+  margin-left: -120px;
+  position: absolute;
+  top: 90px;
+  width: 0;
+  z-index: 8;
+}
+
+.geometric-2:after {
+  border: 60px solid transparent;
+  border-top-color: #fff;
+  border-left-width: 120px;
+  border-right-width: 120px;
+  content: "";
+  height: 0;
+  left: -120px;
+  position: absolute;
+  top: 60px;
+  width: 0;
+}
+
+.list-line {
+  left: 65px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 78px;
+  width: 300px;
+  z-index: 2;
+}
+
+.list-line .line {
+  border-top: solid 1px #ffeec7;
+  display: block;
+  height: 8px;
+  width: 100%;
+}
+
+
+.trofeu {
+  left: 50%;
+  margin-left: -100px;
+  position: absolute;
+  top: 500px;
+  zoom: 0.2;
+  z-index: 8;
+}
+
+
+.star {
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffb500;
+  border-left: 100px solid transparent;
+  color: #ffb500;
+  display: block;
+  height: 0px;
+  position: relative;
+  margin: 50px 0;
+  transform: rotate(35deg);
+  width: 0px;
+}
+
+.star:before {
+  border-bottom: 80px solid #ffb500;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+
+.star:after {
+  position: absolute;
+  display: block;
+  color: #ffb500;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffb500;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+
+
+.sigla {
+  left: 1px;
+  position: absolute;
+  top: 3px;
+  z-index: 9;
+}
